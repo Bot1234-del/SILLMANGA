@@ -1,28 +1,19 @@
 {
-    "name": "SillyManga",
-    "version": "1.0.0",
-    "description": "A SillyTavern extension to generate manga-style images with ComfyUI and Gemini.",
-    "author": "Your Name",
-    "tags": ["image", "generation", "manga"],
-    "settings_file": "settings.html",
-    "settings": [
-        {
-            "id": "geminiApiKey",
-            "name": "Gemini API Key",
-            "type": "text",
-            "default": ""
-        },
-        {
-            "id": "comfyuiUrl",
-            "name": "ComfyUI URL",
-            "type": "text",
-            "default": "http://127.0.0.1:8188"
-        },
-        {
-            "id": "characterReferenceImageUrl",
-            "name": "Character Reference Image URL",
-            "type": "text",
-            "default": ""
-        }
-    ]
+  "name": "SillyManga",
+  "version": "1.0.0",
+  "description": "A SillyTavern extension to generate manga-style images with ComfyUI and Gemini.",
+  "author": "Cline",
+  "tags": ["image generation", "manga", "comfyui", "gemini"],
+  "public": "true",
+  "url": "https://github.com/Costi/SillyManga",
+  "mapping": [
+    {
+      "file": "index.js",
+      "type": "script"
+    },
+    {
+      "file": "style.css",
+      "type": "style"
+    }
+  ]
 }
