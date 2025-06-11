@@ -4,6 +4,7 @@
     "description": "A SillyTavern extension to generate manga-style images with ComfyUI and Gemini.",
     "author": "Your Name",
     "tags": ["image", "generation", "manga"],
+    "settings_file": "settings.html",
     "settings": [
         {
             "id": "geminiApiKey",

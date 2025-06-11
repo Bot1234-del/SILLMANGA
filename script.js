@@ -15,7 +15,7 @@
 
     // Function to get a setting value
     function getSetting(key) {
-        return SillyTavern.extensions.settings[extensionName][key];
+        return SillyTavern.extensions.settings[key];
     }
 
     // Main function to run when the extension is loaded
@@ -24,6 +24,7 @@
 
         // Load the workflow
         const workflow = await fetch('/extensions/SillyManga/costiflux.json').then(res => res.json());
+        const manifest = await fetch('/extensions/SillyManga/manifest.json').then(res => res.json());
 
         // Create a button to trigger the image generation
         const button = document.createElement('button');
