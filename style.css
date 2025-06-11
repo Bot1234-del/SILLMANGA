@@ -1,0 +1,13 @@
+.manga-bubble {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    max-width: 80%;
+}
+
+.manga-image {
+    max-width: 100%;
+    border-radius: 5px;
+}
